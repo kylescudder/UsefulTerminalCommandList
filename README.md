@@ -36,6 +36,22 @@ A list of useful terminal commands, because I have a memory like a sieve
  npm uninstall
  ```
 
+## Create a new dotnet project
+```
+dotnet new [PROJECT TYPE]
+```
+
+## Add -o to specificy the output folder:
+
+```
+-o
+```
+
+## Self explanatory
+```
+ --no-https
+```
+
 ## dotnet project commands
 
  ```

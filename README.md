@@ -35,6 +35,10 @@ A list of useful terminal commands, because I have a memory like a sieve
  ```
  npm uninstall
  ```
+ 
+ ## If you are setting up a package.json you can always add `watch` to your script, like so:
+ 
+`"watch": "concurrently \"rollup -c -w\" \"webpack `**`--watch`**`--mode production --devtool hidden-source-map\""`
 
 ## Create a new dotnet project
 ```

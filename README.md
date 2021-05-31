@@ -3,12 +3,19 @@ A list of useful terminal commands, because I have a memory like a sieve
 
 ## Windows Terminal open split panel with 2 PowerShell tabs:
  ```
- wt -p "Windows PowerShell" `; split-pane -V "Windows PowerShell"
+ wt -p "Windows PowerShell" `; split-pane -V;
  ```
  
 ## Windows Terminal add Title to Windows Terminal:
  Add the `--title "YOUR TITLE"` tag
- 
+
+## Run script defined in package.json
+### Example - VSCodeToDo - `npm run dev` to start the dev server
+
+ ```
+ npm run SCRIPT-NAME
+ ```
+
 ## Install npm package just for that repo and project
 ### The `-i` is short for `install`
 

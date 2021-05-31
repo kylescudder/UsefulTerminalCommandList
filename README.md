@@ -76,7 +76,12 @@ dotnet new [PROJECT TYPE]
  ```
  dotnet add package PACKAGE-NAME
  ```
-
  
+ ## Create VS Extension .vsix
  
+ ```
+ vsce package
+ ```
+ 
+ This will take the version number from your package.json for the file name
  
